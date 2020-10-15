@@ -1,0 +1,29 @@
+/*
+Theme Name:felix-child
+Template: understrap
+Description: understrap child theme
+*/
+@font-face{
+    font-family: 'Circular-Std-Black';
+    src: url('/fonts/Circular-Std-Black.ttf');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Circular-Std-Bold';
+    src: url('/fonts/Circular-Std-Bold.ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Circular-Std-Book';
+    src: url('/fonts/Circular-Std-Book.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Circular-Std-Medium';
+    src: url('/fonts/Circular-Std-Medium.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
