@@ -29,6 +29,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
+    margin: auto;
 }
 .bg-overlay-discount{
     position: absolute;
@@ -108,6 +109,8 @@
 .yellow-stripe-header{
     background:#FFD463;
     width: 100%;
+    max-width: 1440px;
+    margin: auto;
 }
 .yellow-stripe-header p{
     width: 100%;
@@ -177,8 +180,8 @@
     color: #021E41;
 }
 /*third screen*/
-.third-screen{
-    background: #E5E5E5;
+.third-screen, .sixth-screen{
+    background: #F2F6FE;
     padding-top:73px;
     padding-bottom:156px;
 }
@@ -244,4 +247,63 @@ p.review-score{
 }
 .reviews-content-wrapper .review-col:first-of-type .text-center{
     margin:auto auto 0 auto;
+}
+/*fourth screen*/
+.sell-steps{
+    padding:60px 0;
+}
+.image-container>img{
+    position: relative;
+    z-index: 2;
+}
+.image-container-left{
+    margin-right:50px;
+    text-align: right;
+}
+.image-container-right{
+    text-align: left;
+    margin-left:50px;
+}
+.image-shadow-box.shadow-box-left{
+    right:-65px;
+}
+.image-shadow-box{
+    position:absolute;
+    top: 39px;
+    z-index: 0;
+    left: -65px;
+}
+p.step-number{
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.08em;
+    text-transform: capitalize;
+    font-feature-settings: 'liga' off;
+    color: #4C88F8;
+}
+.step-title{
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 120%;
+    color: #072967;
+}
+.step-content{
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 140%;
+    font-feature-settings: 'liga' off;
+    color: #021E41;
+}
+
+.sell-step-content.st-right{
+    padding:0 76px 0 50px;
+}
+.sell-step-content.st-left{
+    padding:0 50px 0 76px;
+}
+/*sixth screen*/
+.testimonial-wrapper{
+    background:#fff;
+    padding:15px;
 }

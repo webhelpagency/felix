@@ -44,5 +44,23 @@ function my_acf_init_block_types() {
             'icon'              => 'admin-comments',
             'keywords'          => array( 'reviews', 'custom-block' ),
         ));
+        acf_register_block_type(array(
+            'name'              => 'sell-steps',
+            'title'             => __('Sell steps'),
+            'description'       => __('Sell steps block.'),
+            'render_template'   => '/partials/gutenberg-blocks/sell-steps.php',
+            'category'          => 'formatting',
+            'icon'              => 'admin-comments',
+            'keywords'          => array( 'steps', 'custom-block' ),
+        ));
+        acf_register_block_type(array(
+            'name'              => 'testimonials',
+            'title'             => __('testimonials'),
+            'description'       => __('testimonials block.'),
+            'render_template'   => '/partials/gutenberg-blocks/testimonials-sell.php',
+            'category'          => 'formatting',
+            'icon'              => 'admin-comments',
+            'keywords'          => array( 'testimonials', 'custom-block' ),
+        ));
     }
 }
